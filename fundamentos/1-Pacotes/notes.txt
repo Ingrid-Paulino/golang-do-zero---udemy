@@ -1,0 +1,8 @@
+go mod tide -> Remove todas as dependencias que não estão sendo usadas
+
+Para rodar os arquivos main:
+- go run ArquivoName
+- go build --> cria o arquivo executavel binario "modulo", que compila all o codigo que esta no projeto
+  - para rodar o arquivo modulo: ./modulo  --> o modulo é necessario quando tiver vario pacotes/pastas no projeto
+
+//OBS: Toda vez que eu atualizar o projeto preciso rodar o go build para o modulo ser atualizado
