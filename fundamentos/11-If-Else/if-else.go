@@ -13,7 +13,7 @@ func main() {
 		fmt.Println("Menor ou igual a 15")
 	}
 
-	if outroNumero := numero; outroNumero > 0 {
+	if outroNumero := numero; outroNumero > 0 { //if init --> inicia uma variavel na mesma linha // a variavel é limitada somente no escopo do if
 		fmt.Println("Número é maior que zero")
 	} else if numero < -10 {
 		fmt.Println("Número é menor que -10")
